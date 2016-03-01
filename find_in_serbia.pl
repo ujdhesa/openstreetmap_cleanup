@@ -19,6 +19,12 @@ sub process {
 	if (/k=\"is_in:country\"\s+v=\"Serbia\"/) {
 	    $seen{$url}=$url;	    
 	}	
+	elsif (/k=\"is_in\"\s+v=\"Serbia\"/) {
+	    $seen{$url}=$url;	    
+	}
+	elsif (/k=\"is_in\"\s+v=\"Srb\"/) {
+	    $seen{$url}=$url;	    
+	}	
 	
     }    
 }
@@ -27,7 +33,7 @@ sub report {
     print "<html>";
     foreach my $name2 (sort keys %seen)     {
 	my $u = $seen{$name2};
-	print "<p>$name2\t$u</p>\n";
+	print "<p>$name2</p>\n";
     }
         print "</html>";
 
