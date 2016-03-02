@@ -1,7 +1,6 @@
 <html><p>https://www.openstreetmap.org/node/2218747482</p>
 <p>https://www.openstreetmap.org/node/2226186187</p>
 <p>https://www.openstreetmap.org/node/2242458286</p>
-<p>https://www.openstreetmap.org/node/2452806561</p>
 <p>https://www.openstreetmap.org/node/352997418</p>
 <p>https://www.openstreetmap.org/node/369559187</p>
 <p>https://www.openstreetmap.org/node/371547319</p>
